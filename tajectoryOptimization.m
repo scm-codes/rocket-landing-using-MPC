@@ -83,7 +83,7 @@ ref_traj = [sol.value(x)', sol.value(y)',  sol.value(theta)', ...
 ref_ctrl = [sol.value(thrust_ratio)', sol.value(thrust_angle)'];
 aug = [zeros(1,6),T+4];
 ref_traj = [ref_traj; aug]; 
-save('ref_traj_new.mat','ref_traj')
+save('ref_traj.mat','ref_traj')
 
 
 %% plots  
