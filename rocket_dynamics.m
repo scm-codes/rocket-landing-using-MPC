@@ -1,4 +1,4 @@
-function Xdot = rocketDynamics(X,U,params)
+function Xdot = rocket_dynamics(X,U,params)
 % dxdt = ode(x,u)
 % rocket dynamics
 %

@@ -1,4 +1,4 @@
-function [A,B] = rocketDynamicsJacobian(X,U,params)
+function [A,B] = rocket_dynamics_jacobian(X,U,params)
 
 
 % states 
